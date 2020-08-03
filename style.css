@@ -1,0 +1,49 @@
+body{
+    width: 100%;
+    max-width: 500px;
+    margin: 100px auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(165, 162, 165);
+}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+input, select{
+    width: 250px;
+    height: 30px;
+    border: 1px solid lightblue;
+    outline: none;
+}
+
+select{
+    width: 100px;
+    margin-left: 10px;
+    letter-spacing: 2px;
+}
+
+span{
+    color: rgb(150, 206, 150);
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.number{
+    border-radius: 8px;
+}
+
+.option{
+    border-radius: 8px;
+}
+
+.currency{
+    width: 400px;
+    height: 200px;
+    background-color: rgba(128, 128, 128, 0.326);
+    border-radius: 10px;
+    color: #ffffff;
+    padding: 0.5rem 1rem 0.75rem 0.5rem;
+}
